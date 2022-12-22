@@ -15,9 +15,9 @@ function App() {
     <Navbar a1="Rokto" a2= "Volunteers" a3= "Log In" a4= "Find Blood" a5= "Donate" a6="Sign Up"/>                                                                             
     <BrowserRouter>
       <Routes>
-        <Route exact path="/Login" element={<Login/>}/>
         <Route exact path="/Rokto" element={<Rokto/>}/>
         <Route exact path="/Signup" element={<Signup/>}/>
+        <Route exact path="/Login" element={<Login/>}/>
       </Routes>
    </BrowserRouter>    
   </>
