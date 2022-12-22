@@ -9,7 +9,7 @@ export default function Navbar(props) {
     <nav className="navbar navbar-expand-lg bg-custom-2">
       
   <div className="container-fluid">
-    <a className="navbar-brand" href="/"><i class="fa-solid fa-droplet"></i>{props.a1}</a>
+    <a className="navbar-brand" href="/Rokto"><i class="fa-solid fa-droplet"></i>{props.a1}</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -19,7 +19,7 @@ export default function Navbar(props) {
           <a className="nav-link active" aria-current="page" href="/Rokto"><i class="fa-solid fa-house-user"></i>{props.a1}</a>
         </li> */}
         <li className="nav-item px-2">
-          <a className="nav-link" href="/"><i class="fa-solid fa-people-group"></i>{props.a2}</a>
+          <a className="nav-link" aria-current="page" href="/Rokto"><i class="fa-solid fa-people-group"></i>{props.a2}</a>
         </li>
         <li className="nav-item px-2">
           <a className="nav-link active" aria-current="page" href="/Rokto"><i class="fa-solid fa-magnifying-glass"></i>{props.a4}</a>
@@ -53,7 +53,7 @@ export default function Navbar(props) {
           </ul>
         </li> */}
         <li className="nav-item">
-          <a className="nav-link" href="/Login"><i class="fa-solid fa-right-to-bracket"></i>{props.a6}</a>
+          <a className="nav-link" href="/Signup"><i class="fa-solid fa-right-to-bracket"></i>{props.a6}</a>
         </li>
       </ul>
     </div>
