@@ -17,17 +17,20 @@ export default function Signup() {
          </div>
          <div className="main">
             <form>
-              <input type="email" placeholder="Email" className="form-control mx-auto"/>
                 
               <input type="text" placeholder="First Name" className="form-control mx-auto"/>
                     
               <input type="text" placeholder="Last Name" className="form-control mx-auto"/>
 
+              <input type="email" placeholder="Email" className="form-control mx-auto"/>
+
+              <input type="number" placeholder="Phone No." className="form-control mx-auto"/>
+
+              <input type="number" placeholder="Age" className="form-control mx-auto"/>
+
               <input type="password" placeholder="Password" className="form-control mx-auto"/>
 
               <input type="password" placeholder="Confirm Password" className="form-control mx-auto"/>      
-
-              <input type="number" placeholder="Age" className="form-control mx-auto"/>
 
               <select class="form-select mx-auto sexs" aria-label="Default select example">
                 <option selected>Sex</option>
@@ -37,10 +40,10 @@ export default function Signup() {
             </select>
 
                     
-              <button className="btn btn-sm loginel">Sign Up</button>
+              <button className="btn btn-sm  mt-5 loginel">Sign Up</button>
             </form>
             <p className="registersent">
-              Not yet registered? Please register first
+              Already registered? Please sign in
             </p>
          </div>
       </div>
